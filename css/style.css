@@ -1,0 +1,154 @@
+/*global setting*/
+a { text-decoration: none; outline: none;}
+a:active{ outline: none;}
+
+a{  
+    text-align: center;
+    color: #00009c;
+}
+
+a:hover {
+    color: #888888;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+h2 {
+    line-height: 2em;
+}
+
+hr {
+    border-top: 0.3em solid #787878;
+}
+/*local setting*/
+body {
+    margin: 0 0;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    background-image: url('../images/bg.jpg');
+}
+
+.header{
+    margin: 0, 0;
+    height: 4em;
+    
+    background-color: white;
+}
+
+.header p {
+    margin: 0;
+}
+
+.main {
+    display: block;
+    width: 60em;
+    margin: 20px auto;
+    background-color: #EAEAF1;
+}
+
+.main .main-title {
+
+    height: 150px;
+    margin: 1em auto 0;
+    padding: 5px;
+    text-align: center;
+}
+
+.main .main-title img{
+    float: left;
+    margin: 0px 20px;
+}
+
+.main .main-title h1{
+    float: left;
+    margin: 50px;
+}
+
+.main .main-navigator {
+    margin: 0 auto;
+    padding: 0;
+    height: 3em;
+    width: 60em;  
+    background-color: #DCE3E6;
+}
+
+.main .main-navigator ul { 
+    margin: 0px auto 5px;
+    padding: 0;
+    /*background-color: red;*/
+    float: left;
+    height: 3em;
+}
+
+.main .main-navigator ul li {
+    margin: auto;   
+    display: block;
+    float: left;
+    height: 3em;
+}
+
+.main .main-navigator ul li:hover{  
+    background-color: #004d94;
+    
+}
+
+.main .main-navigator ul li a{
+    display: block;
+    height: 3em;
+    width: 10em;
+    line-height: 3em;
+    text-align: center;
+    color: black
+}
+
+.main .main-navigator ul li a:hover {
+    color: white;
+}
+
+.main .main-content {
+    width: 60em;
+    margin: 0 auto;
+    padding: 5px;  
+}
+
+.main .main-content .main-content-section{
+    margin: 10px 20px;
+    height: auto;
+}
+
+
+.main-content-section .para-1 .words{
+    float: left;
+    display: inline;
+    height: 200px;
+    width: 60%;
+    
+}
+
+.main-content-section .para-1 .words h1 {
+    padding: 45px 100px;
+}
+
+.main-content-section .para-1 .profile {
+    display: inline;
+    height: 200px;
+}
+.footer {
+    display: block;
+    margin: 1em auto 0 ;
+    padding: 5px 0 0;
+    background-color: white;
+}
+
+.footer img {
+    float : left;
+    margin: 5px 20px;
+}
+.footer p {
+    margin: 1em auto 0 ;
+    padding: 5px 0 0;
+    line-height: 2em;
+    text-align: center;
+}
