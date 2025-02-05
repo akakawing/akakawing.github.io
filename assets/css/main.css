@@ -210,7 +210,7 @@ section {
     height: 3rem;
 }
 
-.px-5 {
-    padding-right: 12rem !important;
-    padding-left: 3rem !important;
+.container {
+    width: 100%;
+    max-width: 1020px;
 }
