@@ -214,3 +214,13 @@ section {
     width: 100%;
     max-width: 1020px;
 }
+
+pre {
+    background-color: #f2f3f3; /* 设置背景色 */
+    padding: 10px; /* 给代码块一些内边距 */
+    border-radius: 4px; /* 可选：设置圆角 */
+}
+
+/* code {
+    background-color: #664646; /* 如果是单行代码，也可以设置 */
+}  */

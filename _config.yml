@@ -1,7 +1,43 @@
-title: My Personal Homepage
-baseurl: "" # 如果部署到子目录，可以设置为子目录的路径，如 "/mywebsite"
-# url: "http://localhost:4000" # 本地或最终部署的URL
-# theme: jekyll-theme-slate # 或其他你喜欢的主题
+
+
+# 基本网站设置
+locale                   : "zh-CN"
+site_theme               : "default"
+title                    : Chenyu Shen’s Homepage
+name                     : &name "Chenyu Shen"
+description              : &description "personal academic website"
+url                      : https://akakawing.github.io
+baseurl                  : "" # 如果部署到子目录，可以设置为子目录的路径，如 "/mywebsite"
+repository               : "academicpages/academicpages.github.io"
+
+
+default:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+
+
 collections:
   pages:
     output: true
+
+# 转换
+markdown:    kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
