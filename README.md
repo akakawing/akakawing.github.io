@@ -1,5 +1,6 @@
-## Hi there 👋
+## Akakawing's Personal Website
 
+This is personal static website using Jekyll!
 <!--
 **Akaka-wing/Akaka-wing** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
