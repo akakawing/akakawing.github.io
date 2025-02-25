@@ -5,6 +5,7 @@ type: "posts"
 date: 2025-02-20
 location: "Hefei"
 layout: blank
+tag: it
 ---
 
 ## Locations of key files/directories
