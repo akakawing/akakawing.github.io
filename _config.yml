@@ -30,7 +30,7 @@ collections:
   pages:
     output: true
   posts:
-    permalink: /:title/
+    permalink: others/:title/
     output: true
 
 # # 转换
