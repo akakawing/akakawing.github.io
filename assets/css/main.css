@@ -115,8 +115,6 @@ section .main-body{
     background: linear-gradient(45deg, #f0f0f0, #f1f1f1) !important;
 }
 
-
-
 .on-top {
     position: relative;
     z-index: 10000;

@@ -1,10 +1,6 @@
 ---
 title: "课程"
-collection: posts
-type: "posts"
-date: 2025-02-20
-location: "Hefei"
-layout: with-title
+permalink: /courses/
 ---
 
 <h2>力学相关</h2>

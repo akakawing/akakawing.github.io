@@ -1,5 +1,4 @@
 ---
-layout: with-title
 title: 其他目录
 permalink: /catalog/
 ---

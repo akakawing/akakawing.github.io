@@ -1,5 +1,4 @@
 ---
-layout: with-title
 title: "研究方向"
 permalink: /research/
 ---

@@ -4,7 +4,6 @@ collection: posts
 type: "posts"
 date: 2025-02-25
 location: "Hefei"
-layout: blank
 tag: it
 ---
 
