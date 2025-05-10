@@ -20,7 +20,7 @@ defaults:
   - scope:
       path: "_posts"
     values:
-      layout: "blank"
+      layout: "withtitle"
 
 collections:
   pages:
@@ -28,6 +28,7 @@ collections:
   posts:
     permalink: others/:title/
     output: true
+
 
 # # 转换
 # markdown:    kramdown
